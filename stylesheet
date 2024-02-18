@@ -1,0 +1,91 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-image: url(boxes.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 2px 2px 5px white;
+    padding: 2% 0%;
+}
+
+h2 {
+    line-height: 1.5;
+    text-align: center;
+    margin: 2.5% 0%;
+}
+
+.boximage {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.imagecredit {
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: -0.25%;
+}
+
+.content {
+    background-color: hsla(277, 61%, 50%, 0.6);
+    height: auto;
+    width: 100%;
+    line-height: 1.4;
+}
+
+.padding {
+    background-color: hsla(290, 100%, 38%, 0.8);
+    height: auto;
+    width: 100%;
+    line-height: 1.4;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.boxsizing {
+    background-color: hsla(0, 0%, 0%, 1);
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.boxsizinglink {
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-shadow: 2px 2px 5px red;
+    text-transform: capitalize;
+}
+
+.border {
+    border: 5px solid hsla(326, 85%, 48%, 0.793);
+}
+
+.border2 {
+    border-width: 5px;
+    border-style: double;
+    border-color: hsla(326, 85%, 48%, 0.793);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.margin {
+    background-color: hsla(338, 95%, 52%, 0.919);
+    padding: 2%;
+    border: 2px solid black;
+    margin: 5%;
+}
+
+.goodbye {
+    background-image: url(waving\ hand.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.get {
+    margin-left: 5%;
+}
