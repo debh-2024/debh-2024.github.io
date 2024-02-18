@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Box Model CSS Cheatsheet</title>
+</head>
+<h1>Box Model CSS Cheatsheet</h1>
+
+<body>
+    <h2>Each HTML object has a box around it, which can be customized with CSS to look more visually
+        appealing.</h2>
+    <img class="boximage" src="Box Model.png">
+    <p class="imagecredit">Image credit: <a href="https://www.codecademy.com/">Codecademy</a> </p>
+    <p class="content">This is the content of a paragraph. The content of any item can be adjusted by height, width and
+        more.<br>
+        For example:<br>
+        <em>.content {<br>
+            background-color: hsla(277, 61%, 50%, 0.6);<br>
+            height: auto;<br>
+            width: 100%;<br>
+            line-height: 1.5;<br>
+            }</em><br>
+        Resize your browser to see how the coloured box width adjusts.<br>
+        When only adjusting the content css, the <em>box-sizing</em> tag can remain its default <em>content-box</em> and
+        does not need to be included in the css code.
+    </p>
+
+    <p class="padding">This is a new paragraph. Here we adjusted the <em>padding</em>. Notice how there is more space
+        around the text content.<br>
+        For example:<br>
+        <em>.padding {<br>
+            background-color: hsla(290, 100%, 38%, 0.8);<br>
+            height: auto;<br>
+            width: 100%;<br>
+            line-height: 1.4;<br>
+            padding: 5%;<br>
+            box-sizing: border-box;<br>
+            }</em><br>
+        When adding padding, we need to change the <em>box-sizing</em> to the new value <em>border-box</em>.
+    </p>
+
+    <p class="boxsizing"><a class="boxsizinglink" href="https://www.w3schools.com/css/css3_box-sizing.asp">Here is a
+            great explanation for the Box-Sizing property</a></p>
+
+    <p class="border">Now, let's look at borders. We can include a simple border with one line of code.<br>
+        For example:<br>
+        <em>.border {<br>
+            border: 5px solid hsla(326, 85%, 48%, 0.793);<br>
+            }</em><br>
+        This code has the width, style and colour included.
+    </p>
+    <p class="border2">Borders can also be coded is separate line items.<br>
+        For example:<br>
+        <em>.border2 {<br>
+            border-width: 5px;<br>
+            border-style:double;<br>
+            border-color: hsla(326, 85%, 48%, 0.793);<br>
+            border-radius: 10px;<br>
+            padding: 2%;<br>
+            }</em><br>
+        Here the corners (<em>radius</em>) have also been rounded and a padding added.
+    </p>
+
+    <p class="margin">Lastly, the margins. Margins are added outside of the border and are blank space. This box has
+        padding and a border applied, plus additional margins.<br>
+        For example:<br>
+        <em>.margin {<br>
+            background-color: hsla(338, 95%, 52%, 0.919);<br>
+            padding: 2%;<br>
+            border: 2px solid black;<br>
+            margin: 5%;<br>
+            }</em><br>
+        Notice how the visible box shrunk, and blank space was added all around the box.
+    </p>
+
+    <p class="goodbye">That's it, bye!<img class="get" src="get-out-get-out-of-here.gif"></p>
+
+
+</body>
+
+</html>
